@@ -11,4 +11,13 @@ describe Diamond do
 B B
  A"
   end
+
+  it "prints a diamond for C" do
+    expect(subject.print_diamond "C").to eq "\
+  A
+ B B
+C   C
+ B B
+  A"
+  end
 end
