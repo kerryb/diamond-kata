@@ -20,4 +20,17 @@ C   C
  B B
   A"
   end
+
+  it "prints a diamond for E" do
+    expect(subject.print_diamond "E").to eq "\
+    A
+   B B
+  C   C
+ D     D
+E       E
+ D     D
+  C   C
+   B B
+    A"
+  end
 end
